@@ -1,11 +1,20 @@
 import './index.css'
+import background from './assets/images/background.jpg' 
 
 export default function App() {
   return(
-    <main className='relative'>
-     <h1>Testing</h1>
-      
-    </main>
+
+ <section>
+   <div>
+      <img src={background} alt=""/>
+   </div>
+   <div>
+      <h1>Hello, world!</h1>
+     <p>Some text here</p>
+   </div>
+  
+ 
+ </section>
    
   )
 }
