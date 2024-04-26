@@ -6,6 +6,7 @@ export default function App() {
     <div>
       <img src={backgroundImage} alt="background" />
     <h1>23</h1>
+    <h1>23</h1>
     </div>
   
   )
