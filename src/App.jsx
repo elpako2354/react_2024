@@ -1,13 +1,14 @@
 import './index.css'
-import bgImg from './assets/images/coding.jpg' 
-
+import bgImg from './assets/images/background.jpg' 
+    
 export default function App() {
   return(
-    <div>
-      <img src={bgImg} alt="coding" />
-    <h1>testing 1</h1>
-    <h1>Testing 2</h1>
+<>
+    <div className='relative bg-cover bg-center h-screen'>
+      <img src={bgImg} className='absolute inset-0 w-full h-full object-cover'/>
     </div>
+</>
+    
   )
 }
 
