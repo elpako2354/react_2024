@@ -1,6 +1,7 @@
 import './index.css'
 import bgImg from './assets/images/background.jpg' 
-import Title from './components/Title'
+import Title from './components/HomePage/Title'
+import Navbar from './components/Navbar/Navbar'
 
 
 export default function App() {
@@ -10,6 +11,7 @@ export default function App() {
       <img src={bgImg} className='absolute inset-0 w-full h-full object-cover'/>
     </div>
     <Title />
+   <Navbar />
 </>
     
   )
