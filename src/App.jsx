@@ -1,13 +1,14 @@
 import './index.css'
-import backgroundImage from './assets/images/background.jpg' 
+import bgImg from './assets/images/coding.jpg' 
 
 export default function App() {
   return(
     <div>
-      <img src={backgroundImage} alt="background" />
-    <h1>23</h1>
-    <h1>23</h1>
+      <img src={bgImg} alt="coding" />
+    <h1>testing 1</h1>
+    <h1>Testing 2</h1>
     </div>
-  
   )
 }
+
+
